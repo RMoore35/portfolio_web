@@ -30,7 +30,7 @@ h1 {
     font-size: 2.6rem;
     line-height: 1.5;
     color: #fff;
-    font-family: 'Roboto';
+    /*font-family: 'Roboto';*/
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -39,7 +39,7 @@ h2 {
     font-size: 2.8rem;
     line-height: 1.5;
     color: #fff;
-    font-family: 'Roboto';
+    /*font-family: 'Roboto';*/
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -48,7 +48,7 @@ h3 {
     font-size: 2.6rem;
     line-height: 1.5;
     color: #fff;
-    font-family: 'Roboto';
+    /*font-family: 'Roboto';*/
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -57,14 +57,14 @@ p {
     font-size: 1.4rem;
     line-height: 1.75;
     color: #fff;
-    font-family: 'Roboto';
+    /*font-family: 'Roboto';*/
 }
 
 a {
     font-size: 1.4rem;
     line-height: 1.75;
     color: #fff;
-    font-family: 'Roboto';
+    /*font-family: 'Roboto';*/
     cursor: pointer;
 }
 
