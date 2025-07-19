@@ -1,6 +1,7 @@
 :root {
     --site-color-01: #fff;
     --site-color-01-hover: #ffffffc2;
+    --site-color-02: #0da1b4;
 }
 
 html {
@@ -208,7 +209,7 @@ a {
 }
 
 .footer-get-in-touch:hover {
-    border: 2px solid #1ffab9;
+    border: 2px solid var(--site-color-02);
 }
 
 .footer-sitemap {

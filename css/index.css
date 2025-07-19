@@ -1,6 +1,6 @@
 main {
     width: 100%;
-    height: calc(100vh - 60px);
+    height: 100vh;
     background-color: #1a2531;
     margin-top: 60px;
     background-image: url(../img/hero-no-background.png), url(../img/solid-painted-concrete-wall-textured-backdrop.jpg);
@@ -9,10 +9,10 @@ main {
     /* This is what I need to modify in the media
     below if I want to change the position of my
     pic on the mobile version */
-    background-position: bottom left calc(45%), center;
+    background-position: 50% 0%, center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     z-index: 100;
     column-gap: 200px;
 }
@@ -21,12 +21,15 @@ main .main-intro h1 {
     font-size: 9.6rem;
     line-height: 1.1;
     margin-bottom: 20px;
+    text-align: center;
+    color: var(--site-color-02);
 }
 
 main p {
     font-size: 1.8rem;
     line-height: 1.75;
     max-width: 500px;
+    padding-left: 10px;
 }
 
 main a {
@@ -35,12 +38,12 @@ main a {
     display: block;
     height: 36px;
     line-height: 36px;
-    background-color: teal;
+    background-color: var(--site-color-02);
     padding: 0 20px;
     width: fit-content;
 }
 
-main .main-quotes p {
+/*main .main-quotes p {
     border-left: 4px solid teal;
     padding-left: 20px;
     margin: 40px 0px;
@@ -48,15 +51,16 @@ main .main-quotes p {
 
 main .main-quotes p:nth-child(2) {
     margin-left: 60px;
-}
+} */
 
 main .main-intro {
     padding-bottom: 8vh;
 }
 
+/*
 main .main-quotes {
     padding-bottom: 8vh;
-}
+} */
 
 /* CATEGORY SECTION */
 
@@ -135,7 +139,7 @@ main .main-quotes {
 .index-about {
     width: 100%;
     padding: 60px 0;
-    background-color: teal;
+    background-color: var(--site-color-02);
 }
 
 .index-about-flex {
