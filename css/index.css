@@ -3,13 +3,13 @@ main {
     height: 100vh;
     background-color: #1a2531;
     margin-top: 60px;
-    background-image: url(../img/hero-no-background.png), url(../img/solid-painted-concrete-wall-textured-backdrop.jpg);
-    background-size: 60vh, cover;
+    background-image: url(../img/rmlogowhitetrans.png), url(../img/solid-painted-concrete-wall-textured-backdrop.jpg);
+    background-size: 40vh, cover;
     background-repeat: no-repeat;
     /* This is what I need to modify in the media
     below if I want to change the position of my
     pic on the mobile version */
-    background-position: 50% 0%, center;
+    background-position: top right, center;
     display: flex;
     justify-content: center;
     align-items: flex-end;

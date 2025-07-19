@@ -116,7 +116,7 @@ a {
 }
 
 .header-main-nav ul li a:hover {
-    color: #1ffab9;
+    color: var(--site-color-02);
 }
 
 .header-main-sm {
