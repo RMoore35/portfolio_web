@@ -9,6 +9,7 @@
 }
 
 .wrapper-about {
+    min-height: 100vh;;
     max-width: 80%;
     margin: 0 auto;
     padding: 0 20px;
@@ -34,11 +35,12 @@
     text-align: left;
     color: var(--site-color-01);
     font-size: 1.8rem;
+    margin-bottom: 20px; /* Space between paragraphs */
 }
 
 .about-get-in-touch {
     padding: 10px 20px;
-    margin: 40px 0 60px;
+    margin: 60px 0px; /* Space above and below the link */
     border: 2px solid #fff;
     font-weight: 600;
     transition: all ease-in-out 200ms;
