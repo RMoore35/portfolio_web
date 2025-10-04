@@ -49,3 +49,25 @@
 .about-get-in-touch:hover {
     border: 2px solid var(--site-color-02);
 }
+
+.wrapper-about ul {
+    color: var(--site-color-01);
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+.wrapper-about ul li:first-child {
+    font-weight: bold;
+}
+
+.wrapper-about a {
+    color: var(--site-color-01);
+    font-size: 1.8rem;
+    /*font-family: 'Roboto';*/
+    cursor: pointer;
+    line-height: 30px;
+}
+
+.wrapper-about a:hover {
+    color: var(--site-color-02);
+}
