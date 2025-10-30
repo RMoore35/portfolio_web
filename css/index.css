@@ -43,24 +43,13 @@ main a {
     width: fit-content;
 }
 
-/*main .main-quotes p {
-    border-left: 4px solid teal;
-    padding-left: 20px;
-    margin: 40px 0px;
-}
-
-main .main-quotes p:nth-child(2) {
-    margin-left: 60px;
-} */
-
 main .main-intro {
     padding-bottom: 8vh;
 }
 
-/*
-main .main-quotes {
-    padding-bottom: 8vh;
-} */
+.main-intro a:hover {
+    color: black
+}
 
 /* CATEGORY SECTION */
 
@@ -172,6 +161,9 @@ main .main-quotes {
     width: fit-content;
 }
 
+.index-about-text a:hover {
+    color: var(--site-color-02);
+}
 .index-about-skill {
     flex-basis: 350px;
 }
