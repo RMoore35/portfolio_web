@@ -252,6 +252,17 @@ a {
     float: right;
 }
 
+.footer-credit {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.footer-credit a:hover {
+    color: var(--site-color-02);
+}
+
 /* BURGER MENU */
 
 .burger-menu, .burger-menu-btn {
