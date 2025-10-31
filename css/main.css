@@ -371,50 +371,14 @@ a {
 
 }
 
-/* Break points 
-<600px
-601px
-768px
-992px
->1200px
-*/
+@media only screen and (min-width: 601px) {
 
-/*
-.header-main {
-    width: 100%;
-    height: 60px;
-    background-color: black;
-    display: flex;
-    flex-direction: row; /* default, not necessary */
-    /*flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: normal;
-    gap: 50px 40px;
 }
 
-.header-main div {
-    height: 30px;
+@media only screen and (min-width: 768px) {
+
 }
 
-.header-main .div-1 {
-    width: 100px;
-    background-color: #B381DE;
-    order: 1;
-    flex-shrink: 1;
-}
+@media only screen and (min-width: 1100px) {
 
-.header-main .div-2 {
-    width: 100px;
-    background-color: #6ADE95;
-    order: 2;
-    flex-basis: 100px;
-    flex-grow: 1;
-}
-
-.header-main .div-3 {
-    width: 100px;
-    background-color: #DEA954;
-    order: 3;
-    flex-basis: 100px;
-    flex-grow: 2;
 }
