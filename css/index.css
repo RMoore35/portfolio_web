@@ -6,9 +6,6 @@ main {
     background-image: url(../img/rmlogowhitetrans.png), url(../img/solid-painted-concrete-wall-textured-backdrop.jpg);
     background-size: 40vh, cover;
     background-repeat: no-repeat;
-    /* This is what I need to modify in the media
-    below if I want to change the position of my
-    pic on the mobile version */
     background-position: top right, center;
     display: flex;
     justify-content: center;
@@ -28,7 +25,6 @@ main .main-intro h1 {
 main p {
     font-size: 1.8rem;
     line-height: 1.75;
-    max-width: 500px;
     padding-left: 50px;
 }
 
@@ -148,6 +144,7 @@ main .main-intro {
 }
 
 .index-about-text p {
+    font-size: 1.8rem;
     padding: 20px 0;
 }
 
@@ -214,18 +211,19 @@ main .main-intro {
     }
 
     main .main-intro h1 {
+        width: calc(100% - 40px);
+        margin: auto;
         font-size: 5rem;
-        line-height: 1.1;
+        line-height: 1.25;
     }
 
-    main p {
+    main .main-intro p {
         text-align: center;
-        padding: 0 10%;
-        font-size: 1.6rem;
+        padding: 0 20px;
         line-height: 1.75;
     }
 
-    main a {
+    main .main-intro a {
         margin: 30px auto; /* Centers inside section */
     }
 
@@ -274,4 +272,72 @@ main .main-intro {
     .index-about-text a {
         margin: 0 auto 10px;
     }
+}
+
+@media only screen and (min-width: 601px) {
+    main {
+        height: auto;
+        background-size: 20vh, cover;
+        background-position: top center, center;
+    }
+
+    main .main-intro {
+        padding-top: 20vh;
+    }
+
+    main .main-intro h1 {
+        width: calc(100% - 40px);
+        margin: auto;
+        font-size: 5rem;
+        line-height: 1.25;
+    }
+
+    main .main-intro p {
+        text-align: center;
+        padding: 0 20px;
+        line-height: 1.75;
+    }
+
+    main .main-intro a {
+        margin: 30px auto; /* Centers inside section */
+    }
+
+    .index-about-flex {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .index-about-img {
+        width: 60%; /*We have to set this
+        to 60% to keep the container centered, otherwise
+        the photo at 60% would push it to the left */
+    }
+
+    .index-about-img img {
+        width: 100%;
+    }
+
+    .index-about-text{
+        flex-basis: 100%;
+    }
+
+    .index-about-text h2 {
+        text-align: center;
+    }
+
+    .index-about-text p {
+        text-align: center;
+    }
+
+    .index-about-text a {
+        margin: 0 auto 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
 }

@@ -177,28 +177,6 @@ a {
     flex-wrap: wrap;
 }
 
-.footer-testimony {
-    flex-basis: 25%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.footer-testimony img {
-    width: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover; /*This is a nice solution to wrong scaling with diff
-    erent size images. Otherwise, object-fit: scale-down*/
-    border-radius: 100px;
-}
-
-.footer-testimony p {
-    text-align: center;
-    font-size: 1.6rem;
-    padding: 20px 20px 0;
-}
-
 .footer-get-in-touch {
     padding: 10px 20px;
     margin: 40px 0 60px;
@@ -368,7 +346,15 @@ a {
 }
 
 @media only screen and (min-width: 601px) {
+    .wrapper-main {
+        width: calc(100% - 40px);
+    }
 
+    .header-main-sm {
+    padding-right: 20px;
+    }
+
+    
 }
 
 @media only screen and (min-width: 768px) {
