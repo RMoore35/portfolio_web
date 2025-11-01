@@ -274,7 +274,7 @@ main .main-intro {
     }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (max-width: 768px) {
     main {
         height: auto;
         background-size: 20vh, cover;
@@ -334,10 +334,41 @@ main .main-intro {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1200px) {
+    main {
+        height: auto;
+        background-size: 20vh, cover;
+        background-position: top center, center;
+    }
 
-}
+    main .main-intro {
+        padding-top: 20vh;
+    }
 
-@media only screen and (min-width: 1200px) {
+    main .main-intro h1 {
+        width: calc(100% - 40px);
+        margin: auto;
+        font-size: 6rem;
+        line-height: 1.25;
+    }
 
+    main .main-intro p {
+        text-align: center;
+        padding: 0 20px;
+        line-height: 1.75;
+    }
+
+    main .main-intro a {
+        margin: 30px auto; /* Centers inside section */
+    }
+
+    .index-about-img {
+        width: 40%; /*We have to set this
+        to 60% to keep the container centered, otherwise
+        the photo at 60% would push it to the left */
+    }
+
+    .index-about-img img {
+        width: 100%;
+    }
 }
