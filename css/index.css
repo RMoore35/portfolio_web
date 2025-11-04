@@ -274,13 +274,82 @@ main .main-intro {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 600px) {
     main {
         height: auto;
         background-size: 20vh, cover;
         background-position: top center, center;
     }
 
+    main .main-intro {
+        padding-top: 20vh;
+    }
+
+    main .main-intro h1 {
+        width: calc(100% - 40px);
+        margin: auto;
+        font-size: 5rem;
+        line-height: 1.25;
+    }
+
+    main .main-intro p {
+        text-align: center;
+        padding: 0 20px;
+        line-height: 1.75;
+    }
+
+    main .main-intro a {
+        margin: 30px auto; /* Centers inside section */
+    }
+
+    .index-category {
+        padding: 40px 0 20px;
+        row-gap: 10px;
+    }
+
+    .index-category p {
+        padding-bottom: 20px;
+    }
+
+    .index-category-box {
+        width: calc(100%-20px);
+        height: 160px;
+        align-items: center;
+    }
+
+    .index-about-flex {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .index-about-img {
+        width: 50%; /*We have to set this
+        to 60% to keep the container centered, otherwise
+        the photo at 60% would push it to the left */
+    }
+
+    .index-about-img img {
+        width: 100%;
+    }
+
+    .index-about-text{
+        flex-basis: 100%;
+    }
+
+    .index-about-text h2 {
+        text-align: center;
+    }
+
+    .index-about-text p {
+        text-align: center;
+    }
+
+    .index-about-text a {
+        margin: 0 auto 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
     main .main-intro {
         padding-top: 20vh;
     }
@@ -334,41 +403,6 @@ main .main-intro {
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    main {
-        height: auto;
-        background-size: 20vh, cover;
-        background-position: top center, center;
-    }
-
-    main .main-intro {
-        padding-top: 20vh;
-    }
-
-    main .main-intro h1 {
-        width: calc(100% - 40px);
-        margin: auto;
-        font-size: 6rem;
-        line-height: 1.25;
-    }
-
-    main .main-intro p {
-        text-align: center;
-        padding: 0 20px;
-        line-height: 1.75;
-    }
-
-    main .main-intro a {
-        margin: 30px auto; /* Centers inside section */
-    }
-
-    .index-about-img {
-        width: 40%; /*We have to set this
-        to 60% to keep the container centered, otherwise
-        the photo at 60% would push it to the left */
-    }
-
-    .index-about-img img {
-        width: 100%;
-    }
+@media only screen and (min-width: 1200px) {
+    
 }
