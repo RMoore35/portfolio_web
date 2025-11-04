@@ -249,6 +249,54 @@ a {
 
 /* MOBILE VERSION */
 
+@media only screen and (max-width: 1200px) {
+    
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+    .header-main-logo {
+        padding-left: 20px;
+    }
+
+    .header-main-sm {
+        padding-right: 20px;
+    }
+
+    .footer-get-in-touch {
+        margin: 0 0 60px;
+    }
+
+    .footer-sitemap {
+        flex-wrap: wrap;
+    }
+
+    .footer-sitemap ul:nth-child(1) {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .footer-sitemap ul:nth-child(1),
+    .footer-sitemap ul:nth-child(2),
+    .footer-sitemap ul:nth-child(3) {
+        flex-basis: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer-sitemap p {
+        padding: 0 20px;
+    }
+
+    .footer-sitemap ul:nth-child(4) p {
+        float: none;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 600px) {
 
     .burger-menu-btn {
@@ -344,64 +392,7 @@ a {
     }
 }
 
-@media only screen and (min-width: 600px) {
-    .wrapper-main {
-        width: calc(100% - 40px);
-    }
 
-    .header-main-logo {
-        padding-left: 20px;
-    }
 
-    .header-main-sm {
-        padding-right: 20px;
-    }
 
-    .footer-get-in-touch {
-        margin: 0 0 60px;
-    }
 
-    .footer-sitemap {
-        flex-wrap: wrap;
-    }
-
-    .footer-sitemap ul:nth-child(1) {
-        border-left: none;
-        padding-left: 0;
-    }
-
-    .footer-sitemap ul:nth-child(1),
-    .footer-sitemap ul:nth-child(2),
-    .footer-sitemap ul:nth-child(3) {
-        flex-basis: 100%;
-        text-align: center;
-        padding-bottom: 20px;
-    }
-
-    .footer-sitemap p {
-        padding: 0 20px;
-    }
-
-    .footer-sitemap ul:nth-child(4) p {
-        float: none;
-        text-align: center;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .header-main-sm {
-        padding-right: 20px;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .header-main-sm {
-        padding-right: 20px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .header-main-sm {
-        padding-right: 20px;
-    }
-}
