@@ -40,7 +40,7 @@ main a {
 }
 
 main .main-intro {
-    padding-bottom: 8vh;
+    padding-bottom: 14vh;
 }
 
 .main-intro a:hover {
@@ -199,7 +199,18 @@ main .main-intro {
 /* MOBILE VERSION */
 
 @media only screen and (max-width: 1200px) {
-    
+    main {
+    height: 80vh;
+    background-size: 30vh, cover;
+    }
+
+    main .main-intro h1 {
+    font-size: 7.5rem;
+    line-height: 1.1;
+    margin-bottom: 6vh;
+    text-align: center;
+    color: var(--site-color-02);
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -229,6 +240,10 @@ main .main-intro {
     main .main-intro a {
         margin: 30px auto; /* Centers inside section */
     }
+
+    main .main-intro {
+    padding-bottom: 2vh;
+}
 }
 
 @media only screen and (max-width: 768px) {

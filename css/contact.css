@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center; /* Center content vertically if shorter than viewport */
     align-items: center;
+    overflow-x: hidden;
 }
 
 .wrapper-contact {
@@ -37,6 +38,7 @@
     align-items: center;
     gap: 10px;
     margin-top: 40px; /* Space above the links */
+    margin-bottom: 40px;
 }
 
 .contact-get-in-touch {
@@ -50,3 +52,81 @@
     border: 2px solid var(--site-color-02);
 }
 
+.contact a {
+    font-size: 1.8rem;
+    cursor: pointer;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact {
+        min-height: auto;
+    }
+
+    .wrapper-contact {
+        min-height: auto;
+    }
+
+    .contact-links {
+        margin-bottom: 40px; /* Space above the links */
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .contact {
+        min-height: auto;
+    }
+
+    .wrapper-contact {
+        min-height: auto;
+    }
+
+    .contact-links {
+        padding: 10px 20px;
+        margin-top: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact {
+        min-height: auto;
+    }
+
+    .wrapper-contact {
+        min-height: auto;
+    }
+
+    .contact-links {
+        margin-bottom: 40px; /* Space above the links */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contact {
+        min-height: auto;
+    }
+
+    .wrapper-contact {
+        min-height: auto;
+    }
+
+    .contact h1 {
+        font-size: 3.5rem;
+    }
+
+    .contact p {
+        font-size: 1.6rem;
+    };
+
+    .contact-links {
+        margin-bottom: 40px; /* Space above the links */
+    }
+
+    .contact-get-in-touch {
+        padding: 5px 10px;
+        margin-top: auto;
+        margin-bottom: 10px;
+    }
+}

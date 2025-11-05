@@ -71,3 +71,60 @@
 .wrapper-about a:hover {
     color: var(--site-color-02);
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .about {
+        min-height: auto;
+    }
+
+    .wrapper-about {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .about {
+        min-height: auto;
+    }
+
+    .wrapper-about {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        min-height: auto;
+    }
+
+    .wrapper-about {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about {
+        min-height: auto;
+    }
+
+    .wrapper-about {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+
+    .about h1 {
+        font-size: 3.5rem;
+    }
+
+    .about h3 {
+        font-size: 1.8rem;
+    }
+
+    .about p {
+        font-size: 1.6rem;
+    };
+}

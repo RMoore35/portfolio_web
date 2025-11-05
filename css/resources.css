@@ -37,7 +37,8 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    margin-top: 40px; /* Space above the links */
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .resource-get-in-touch {
@@ -62,14 +63,55 @@
     color: var(--site-color-01);
     font-size: 1.8rem;
     cursor: pointer;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .wrapper-resources a:hover {
     color: var(--site-color-02);
 }
 
+
+@media only screen and (max-width: 1200px) {
+    .resources {
+        min-height: auto;
+    }
+
+    .wrapper-resources {
+        min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .resources {
+        min-height: auto;
+    }
+
+    .wrapper-resources {
+        min-height: auto;
+    }
+
+    .resource-get-in-touch {
+        padding: 10px 20px;
+        margin-top: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .resources {
+        min-height: auto;
+    }
+
+    .wrapper-resources {
+        min-height: auto;
+    }
+}
+
 @media only screen and (max-width: 600px) {
+
+    .resources {
+        min-height: auto;
+    }
 
     .wrapper-resources {
         min-height: auto;
@@ -85,6 +127,8 @@
 
     .resource-get-in-touch {
         padding: 5px 10px;
+        margin-top: auto;
+        margin-bottom: 10px;
     }
 
     .resources ul {
@@ -94,19 +138,6 @@
     .resources a {
         font-size: 1.6rem;      
     }
-
-}
-
-@media only screen and (min-width: 601px) {
-
-}
-
-@media only screen and (min-width: 768px) {
-
-}
-
-@media only screen and (min-width: 1200px) {
-
 }
 
 

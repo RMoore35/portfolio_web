@@ -250,11 +250,15 @@ a {
 /* MOBILE VERSION */
 
 @media only screen and (max-width: 1200px) {
-    
+    .footer-main {
+        padding: 10px 0 50px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
-
+    .footer-main {
+        padding: 20px 0 60px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -266,6 +270,10 @@ a {
         padding-right: 20px;
     }
 
+    .footer-main {
+        padding: 60px 0 100px;
+    }
+    
     .footer-get-in-touch {
         margin: 0 0 60px;
     }
@@ -359,6 +367,10 @@ a {
 
     .header-main-sm {
         padding-right: 20px;
+    }
+
+    .footer-main {
+        padding: 60px 0 100px;
     }
 
     .footer-get-in-touch {
