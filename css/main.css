@@ -81,9 +81,9 @@ a {
     display: flex;
 }
 
-.header-main-logo img{
-    height: 40px;
-    align-self: center;
+.rm-logo img {
+    height: 30px;
+    vertical-align: middle;
 }
 
 .header-main-nav {
@@ -93,7 +93,7 @@ a {
 
 .header-main-nav ul {
     list-style: none;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 .header-main-nav ul li {

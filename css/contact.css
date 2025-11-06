@@ -29,7 +29,7 @@
     text-align: left;
     color: var(--site-color-01);
     font-size: 1.8rem;
-    margin-bottom: 20px; /* Space between paragraphs */
+    margin-bottom: 20px;
 }
 
 .contact-links {
@@ -37,7 +37,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    margin-top: 40px; /* Space above the links */
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
