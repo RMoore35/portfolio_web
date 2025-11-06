@@ -38,7 +38,6 @@ h2 {
     font-size: 2.8rem;
     line-height: 1.5;
     color: #fff;
-    /*font-family: 'Roboto';*/
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -47,7 +46,6 @@ h3 {
     font-size: 2.6rem;
     line-height: 1.5;
     color: #fff;
-    /*font-family: 'Roboto';*/
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -56,14 +54,12 @@ p {
     font-size: 1.4rem;
     line-height: 1.75;
     color: #fff;
-    /*font-family: 'Roboto';*/
 }
 
 a {
     font-size: 1.4rem;
     line-height: 1.75;
     color: #fff;
-    /*font-family: 'Roboto';*/
     cursor: pointer;
 }
 
@@ -163,7 +159,7 @@ a {
     background-image: url(../img/coffee.png);
 }
 
-/* This is our footer */
+/* Footer */
 
 .footer-main {
     width: 100%;
@@ -205,29 +201,12 @@ a {
 .footer-sitemap ul:nth-child(1) {
     border-left: 2px solid teal;
     padding-left: 20px;
-}
-
-.footer-sitemap ul:nth-child(1),
-.footer-sitemap ul:nth-child(2) {
-    flex-basis: 180px;
-}
-
-.footer-sitemap ul:nth-child(3) {
-    flex-basis: 340px;
+    flex-basis: 100%;
 }
 
 .footer-sitemap p {
     text-transform: uppercase;
     line-height: 30px;
-}
-
-.footer-sitemap ul:nth-child(4) {
-    flex-grow: 1;
-}
-
-.footer-sitemap ul:nth-child(4) p {
-    clear: both;
-    float: right;
 }
 
 .footer-credit {

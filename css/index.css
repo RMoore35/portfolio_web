@@ -4,7 +4,7 @@ main {
     background-color: #1a2531;
     margin-top: 60px;
     background-image: url(../img/rmlogowhitetrans.png), url(../img/solid-painted-concrete-wall-textured-backdrop.jpg);
-    background-size: 40vh, cover;
+    background-size: 35vh, cover;
     background-repeat: no-repeat;
     background-position: top right, center;
     display: flex;
