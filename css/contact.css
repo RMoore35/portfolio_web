@@ -58,6 +58,8 @@
     line-height: 20px;
 }
 
+/* MOBILE VERSION */
+
 @media only screen and (max-width: 1200px) {
     .contact {
         min-height: auto;
@@ -81,6 +83,10 @@
         min-height: auto;
     }
 
+    .contact h1 {
+        font-size: 7rem;
+    }
+
     .contact-links {
         padding: 10px 20px;
         margin-top: auto;
@@ -95,6 +101,10 @@
 
     .wrapper-contact {
         min-height: auto;
+    }
+
+    .contact h1 {
+        font-size: 5rem;
     }
 
     .contact-links {

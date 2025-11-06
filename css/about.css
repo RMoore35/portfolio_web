@@ -72,6 +72,7 @@
     color: var(--site-color-02);
 }
 
+/* MOBILE VERSION */
 
 @media only screen and (max-width: 1200px) {
     .about {
@@ -93,6 +94,10 @@
         min-height: auto;
         margin-bottom: 20px;
     }
+
+    .about h1 {
+        font-size: 7rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -103,6 +108,10 @@
     .wrapper-about {
         min-height: auto;
         margin-bottom: 20px;
+    }
+
+    .about h1 {
+        font-size: 5rem;
     }
 }
 

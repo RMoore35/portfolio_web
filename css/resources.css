@@ -46,6 +46,7 @@
     border: 2px solid #fff;
     font-weight: 600;
     transition: all ease-in-out 200ms;
+    color: var(--site-color-01)!important;
 }
 
 .resource-get-in-touch:hover {
@@ -70,6 +71,7 @@
     color: var(--site-color-02);
 }
 
+/* MOBILE VERSION */
 
 @media only screen and (max-width: 1200px) {
     .resources {
@@ -95,6 +97,10 @@
         margin-top: auto;
         margin-bottom: 20px;
     }
+
+    .resources h1 {
+        font-size: 7rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -104,6 +110,10 @@
 
     .wrapper-resources {
         min-height: auto;
+    }
+
+    .resources h1 {
+        font-size: 5rem;
     }
 }
 
