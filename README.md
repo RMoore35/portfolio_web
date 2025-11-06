@@ -1,0 +1,1 @@
+Welcome to my "first" portfolio website. I created this website to showcase my html, css, and JavaScript skills. However, I also use this site as a landing page for my English tutoring business. I will provide resources as my students request them or if I see a need for them.
