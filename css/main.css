@@ -123,9 +123,21 @@ a {
     column-gap: 10px;
 }
 
+.header-main-sm-linkedin {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/linkedin-bw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-sm-linkedin:hover {
+    background-image: url(../img/linkedin.png);
+}
+
 .header-main-sm-yt {
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     background-image: url(../img/YouTube-bw.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,8 +148,8 @@ a {
 }
 
 .header-main-sm-in {
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     background-image: url(../img/Instagram-bw.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,8 +160,8 @@ a {
 }
 
 .header-main-sm-coffee {
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     background-image: url(../img/coffee-bw.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -240,52 +252,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .header-main-logo {
-        padding-left: 30px;
-    }
-
-    .header-main-sm {
-        padding-right: 30px;
-    }
-
-    .footer-main {
-        padding: 60px 0 100px;
-    }
-    
-    .footer-get-in-touch {
-        margin: 0 0 60px;
-    }
-
-    .footer-sitemap {
-        flex-wrap: wrap;
-    }
-
-    .footer-sitemap ul:nth-child(1) {
-        border-left: none;
-        padding-left: 0;
-    }
-
-    .footer-sitemap ul:nth-child(1),
-    .footer-sitemap ul:nth-child(2),
-    .footer-sitemap ul:nth-child(3) {
-        flex-basis: 100%;
-        text-align: center;
-        padding-bottom: 20px;
-    }
-
-    .footer-sitemap p {
-        padding: 0 20px;
-    }
-
-    .footer-sitemap ul:nth-child(4) p {
-        float: none;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 768px) {   
     .burger-menu-btn {
         display: block;
         margin-left: 10px;
@@ -332,12 +299,80 @@ a {
         text-align: center;
     }
 
+    .header-main-logo {
+        padding-left: 30px;
+    }
+
+    .header-main-nav ul li:nth-child(2),
+    .header-main-nav ul li:nth-child(3),
+    .header-main-nav ul li:nth-child(4),
+    .header-main-nav ul li:nth-child(5) {
+        display: none;
+    }
+
+    .header-main-sm {
+        padding-right: 30px;
+        column-gap: 20px;
+    }
+
+    .header-main-sm-linkedin {
+        background-image: url(../img/linkedin.png);
+    }
+
+    .header-main-sm-yt {
+        background-image: url(../img/YouTube.png);
+    }
+
+    .header-main-sm-in {
+        background-image: url(../img/Instagram.png);
+    }
+
+    .header-main-sm-coffee {
+        background-image: url(../img/coffee.png);
+    }
+
+    .footer-main {
+        padding: 60px 0 100px;
+    }
+    
+    .footer-get-in-touch {
+        margin: 0 0 60px;
+    }
+
+    .footer-sitemap {
+        flex-wrap: wrap;
+    }
+
+    .footer-sitemap ul:nth-child(1) {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .footer-sitemap ul:nth-child(1),
+    .footer-sitemap ul:nth-child(2),
+    .footer-sitemap ul:nth-child(3) {
+        flex-basis: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer-sitemap p {
+        padding: 0 20px;
+    }
+
+    .footer-sitemap ul:nth-child(4) p {
+        float: none;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .wrapper-main {
         width: calc(100% - 40px);
     }
 
     .header-main-logo {
-        padding-left: 30px;
+        padding-left: 20px;
     }
 
     .header-main-nav ul li:nth-child(2),
@@ -386,7 +421,15 @@ a {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .header-main-logo {
+        padding-left: 10px;
+    }
 
+    .rm-logo img {
+        height: 15px;
+    }
+}
 
 
 

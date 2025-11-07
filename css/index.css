@@ -198,7 +198,7 @@ main .main-intro {
 }
 
 /* MOBILE VERSION */
-
+/*TODO: Title further away from logo, just under the 1200px breakpoint*/
 @media only screen and (max-width: 1200px) {
     main {
     height: 80vh;
