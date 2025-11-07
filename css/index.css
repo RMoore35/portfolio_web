@@ -40,7 +40,7 @@ main a {
 }
 
 main .main-intro {
-    padding-bottom: 14vh;
+    padding-bottom: 11vh;
 }
 
 .main-intro a:hover {
@@ -198,19 +198,18 @@ main .main-intro {
 }
 
 /* MOBILE VERSION */
-/*TODO: Title further away from logo, just under the 1200px breakpoint*/
 @media only screen and (max-width: 1200px) {
     main {
-    height: 80vh;
-    background-size: 30vh, cover;
+        height: 80vh;
+        background-size: 30vh, cover;
     }
 
     main .main-intro h1 {
-    font-size: 7.5rem;
-    line-height: 1.1;
-    margin-bottom: 6vh;
-    text-align: center;
-    color: var(--site-color-02);
+        font-size: 7.5rem;
+        line-height: 1.1;
+        margin-bottom: 6vh;
+        text-align: center;
+        color: var(--site-color-02);
     }
 }
 
@@ -243,8 +242,8 @@ main .main-intro {
     }
 
     main .main-intro {
-    padding-bottom: 2vh;
-}
+        padding-bottom: 2vh;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -348,7 +347,7 @@ main .main-intro {
     }
 
     main .main-intro a {
-        margin: 30px auto; /* Centers inside section */
+        margin: 30px auto;
     }
 
     .index-category {
@@ -372,9 +371,7 @@ main .main-intro {
     }
 
     .index-about-img {
-        width: 60%; /*We have to set this
-        to 60% to keep the container centered, otherwise
-        the photo at 60% would push it to the left */
+        width: 60%;
     }
 
     .index-about-img img {
