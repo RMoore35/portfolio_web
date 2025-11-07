@@ -124,8 +124,8 @@ a {
 }
 
 .header-main-sm-linkedin {
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
     background-image: url(../img/linkedin-bw.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -428,6 +428,10 @@ a {
 
     .rm-logo img {
         height: 15px;
+    }
+
+    .header-main-nav ul li {
+        display: none;    
     }
 }
 
