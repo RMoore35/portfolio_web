@@ -271,7 +271,7 @@ main .main-intro {
     }
 
     main .main-intro a {
-        margin: 30px auto; /* Centers inside section */
+        margin: 30px auto;
     }
 
     .index-category {
